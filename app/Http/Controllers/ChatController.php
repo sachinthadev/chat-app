@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Events\MessageSent;
-use Illuminate\Support\Facades\Redis;
 
 class ChatController extends Controller
 {
